@@ -1,15 +1,30 @@
-
+nav{
+    background-color:white;
+}
+.main{
+    background-color: #F7E1D7;
+    color: #4A5759;
+    margin-bottom: 40px;
+}
 h4{
     width: 500px;
     margin: auto;
-    padding-top: 2em;
+    padding-top: 4em;
     text-align: center;
+}
+button{
+    background-color: #B0C4B1 !important;
+    border: none !important;
+}
+.btn:hover{
+    background-color: #EDAFB8 !important;
 }
 .row{
     margin-top: 60px;
 }
 .bi{
     font-size: 40px;
+    color: #4A5759;
 }
 .col{
     margin-left: 60px;
@@ -25,4 +40,19 @@ form{
     width: 500px;
     margin: auto;
     margin-top: 60px;
+}
+.gallery{
+    text-align: center;
+    m
+}
+.flr{
+    width: 300px;
+    max-width:100%;
+}
+.gal{
+    border: 2px solid #4A5759;
+}
+.fname{
+    background-color: #EDAFB8;
+    margin-top: 20px;
 }

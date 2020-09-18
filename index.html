@@ -9,7 +9,7 @@
 
 <body>
     <header id="header">
-            <nav class="navbar  navbar-expand-lg navbar-light sticky-top">
+            <nav class="navbar fixed-top navbar-collapse navbar-expand-lg navbar-light">
                 <a class="nav-brand" href="">
                     <img id="header-img" src="img/sbf-logo.svg" height="30" class="d-inline-block alight-top" alt="logo">
                 </a>
@@ -22,17 +22,21 @@
     </header>
 
     <div class="main">
+        
         <h4>Flowers for your special moments</h4>
-    <form id="form" action=" https://www.freecodecamp.com/email-submit">
+        <div>
+            <img src="img/flowers1.JPG" class="rounded mx-auto d-block" alt="flowers" width="600">
+        </div>
+        <form id="form" action=" https://www.freecodecamp.com/email-submit">
         <!-- <div class="form-group">
             <label>Name</label>
             <input type="text" class="form-control" value="name" placeholder="Name">
         </div> -->
         <div class="form-group">
             <!-- <label>Email:</label> -->
-            <input type="email" class="form-control" value="Email">
+            <input type="email" class="form-control" placeholder="Email">
         </div>
-        <button class="btn btn-lg btn-primary">Keep up with the latest</button>
+        <button class="btn btn-lg btn-primary" id="flowers">Keep up with the latest</button>
     </form>
 
         <div class="container-fluid">
@@ -69,14 +73,40 @@
                 </div>
                 <div class="col col-6">
                     <h5>Gurantee</h5>
-                    <p>Personal gurantee of satisfaction.</p>
+                    <p id="about">Personal gurantee of satisfaction.</p>
                 </div>
             </div>
         </div>
 
-        <div class="vid" id="flowers">
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/C6smYd8OZUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="vid" id="prices">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rv-PJd7A6f4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        
+        <div class="container" >
+            <div class="row d-flex justify-content-around justify-content-center gallery">
+                <div class="col-md-3 gal">
+                    <div>
+                    <h5 class="fname">Double Beauty<h5>
+                    </div>
+                    <img class="flr" src="img/flowers2.JPG" alt="small">
+                    <p>Starting at $49</p>
+                </div>  
+                <div class="col-md-3 gal">
+                    <div>
+                    <h5 class="fname">Three Pieces of Spring<h5>
+                    </div>
+                    <img class="flr" src="img/flowers3.JPG" alt="small">
+                    <p>Starting at $79</p>
+                </div> 
+                <div class="col-md-3 gal">
+                <div>
+                    <h5 class="fname">Full House of Flowers<h5>
+                </div>
+                    <img  class="flr" src="img/flowers4.JPG" alt="small">
+                    <p>Starting at $129</p>
+                </div>   
+		</div>
+       
     </div>
 </body>
 </html>
